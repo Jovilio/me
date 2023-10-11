@@ -1,0 +1,26 @@
+.texto {
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 50%;
+    /* background: linear-gradient(to bottom right, orange, rgba(220, 20, 60, 0.267)); */
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.texto>h4 {
+    margin-bottom: 10px;
+}
+
+.texto>a {
+    font-style: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    color: #082a7d;
+}
+
+.texto:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+}

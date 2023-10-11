@@ -1,0 +1,20 @@
+.cubix{
+    /* background: linear-gradient(to bottom right, orange, rgba(220, 20, 60, 0.267)); */
+    border-radius: 4px;
+    opacity: 0.8;
+    /* text-align: center; */
+}
+.cubix:hover{
+    opacity: 1;
+}
+.cubix>img{
+    width: 50%;
+    background: none;
+}
+.responsividade{
+    display: flex;
+    flex-direction: column;
+}
+.responsividade>img{
+    width: 50%;
+}
