@@ -20,16 +20,8 @@ function animacaoScrool() {
     var cabeca = document.querySelector('.cabeca');
     var item = document.querySelector('.item');
     if (windowTopo >= 11) {
-        // cabeca.style.boxShadow = "0px 0px 1px 0px rgba(128, 128, 128, 0.61)";
-        // cabeca.style.background = "white";
-        // cabeca.style.background = "whitesmoke";
-        // item.style.boxShadow = "none";
-        // btnVoltarParaTopo.style.background = 'orange';
-        // btnVoltarParaTopo.style.transform = 'translateY(0px)';
         btnVoltarParaTopo.style.visibility = "visible";
     } else {
-        // cabeca.style.boxShadow = "initial";
-        // cabeca.style.background = "initial";
         btnVoltarParaTopo.style.visibility = "hidden";
 
     }
@@ -38,12 +30,12 @@ function animacaoScrool() {
 window.addEventListener('scroll', animacaoScrool);
 
 onload = () => {
-    if (window.screen.width < 1024) {
+    if (window.screen.width < 768) {
 
         var corpo = document.getElementById("corpo");
         // alert("De momento este site não está disponivel no tamanho da sua tela");
 
-        corpo.innerHTML = "Pagina Indisponivel";
+        corpo.innerHTML = "Por não ser responsiva por enquanto esta pagina só pode ser visualizada em tablets ou computadores com largura da tela igual ou superior 768 ";
         // document.getElementById("#corpo").innerText = "Pagina indisponivel";
     }
 }
